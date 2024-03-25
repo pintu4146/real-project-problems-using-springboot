@@ -1,0 +1,3 @@
+filePath:
+  product: "src/main/java/com/learning/realProjectProblems/utils/product.csv"
+  Restaurant_reviews: "src/main/java/com/learning/realProjectProblems/utils/RestaurantReviews.csv"
