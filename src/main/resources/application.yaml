@@ -1,1 +1,11 @@
-spring.application.name=realProjectProblems
+spring:
+  application:
+  name: realProjectProblems
+  datasource:
+    url: jdbc:mysql://${RDS_HOST}:${RDS_PORT}/${RDS_DB_NAME}
+    username: ${RDS_USERNAME}
+    password: ${RDS_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
